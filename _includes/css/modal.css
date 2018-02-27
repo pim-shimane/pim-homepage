@@ -1,6 +1,13 @@
+.img_link {
+ cursor: pointer;
+}
+
 .modalwin {
             position: fixed;
-            width: 600px;
+            width: 1200px;
+            height: 600px;
+            top: 250px;
+            left: 350px;
             background-color: #fff;
             border-radius: 5px;
             box-shadow: 0 2px 4px 0 #000;
@@ -60,3 +67,5 @@
                 width: 90%;
             }
         }
+
+
