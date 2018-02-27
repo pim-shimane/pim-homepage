@@ -47,6 +47,7 @@ https://qiita.com/varmil/items/9b0aeafa85975474e9b6
 https://github.com/git/git/tree/master/contrib/completion
 を参考にします
 ```
+$cd
 $git clone https://github.com/git/git.git
 $cp git/contrib/completion/git-completion.bash ./       //gitコマンド補完スクリプト
 $mv git-completion.bash .git-completion.bash        //ファイルを隠しファイルに変更
