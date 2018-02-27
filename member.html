@@ -6,7 +6,7 @@ layout: page
 
 <div style="background-image: url('{{ site.baseurl }}/img/matrix.png');" class="outor">
   {% for member in site.members %}
-  <div style="top: {{ member.soft_hard }}%; left: {{ member.enjoy_work }}%; background: url('{{ site.baseurl }}/img/matrix.png');" class="innner">
+  <div style="top: {{ member.enjoy_work }}%; left: {{ member.soft_hard }}%; background: url('{{ site.baseurl }}/img/matrix.png');" class="innner">
     <a href="{{ member.url | prepend: site.baseurl | prepend: site.url }}">
       <img src="https://avatars.githubusercontent.com/{{ member.github }}" alt="{{ member.name }}">
       <div class="mask">
