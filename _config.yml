@@ -1,11 +1,10 @@
 url: https://ssd-ch.github.io
-baseurl: 
+baseurl:
 
 # Site settings
 title: 島根大学ものづくり部Pim
 email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-
 
 # Team names, titles and social links
 people:
@@ -50,7 +49,7 @@ social:
     url:
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
+  - title: bitbucket
     url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll
@@ -63,3 +62,8 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+#Collection
+collections:
+  members:
+    output: true
