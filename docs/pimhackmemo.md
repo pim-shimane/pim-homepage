@@ -28,13 +28,13 @@ $jekyll new my-awesome-site //jekyll でサイトの自動作成
 $jekyll serve //ローカルサーバーで動かしてみる
 ```
 ## githubのアカウントの作り方
-Start building を選択する.
-Sign up with GitHub を選択.
-Create an accountを選択.
-User name, Email address, Passwordを入力する.
-プランを選択.
-確認メールが来るので、Verify email address を選択.
-Welcome to GitHub!
+1.Start building を選択する
+2.Sign up with GitHub を選択
+3.Create an accountを選択
+4.User name, Email address, Passwordを入力する
+5.プランを選択
+6.確認メールが来るので、Verify email address を選択
+7.Welcome to GitHub!
 
 ## githubでチームのプロジェクトを共有する
 自分のID(ユーザーID)を作成者に伝えて招待される（招待メール届く）
