@@ -9,7 +9,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand page-scroll" href="/">
+          <a class="navbar-brand page-scroll" href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">
             <div class="navbar-logo"></div>
           </a>
       </div>
@@ -24,16 +24,16 @@
                   <a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">About</a>
               </li>
               <li>
-                  <a href="{{ 'member' | prepend: site.baseurl | prepend: site.url }}">Member</a>
+                  <a href="{{ '/member' | prepend: site.baseurl | prepend: site.url }}">Member</a>
               </li>
               <li>
-                  <a href="{{ 'activity' | prepend: site.baseurl | prepend: site.url }}">Activity</a>
+                  <a href="{{ '/activity' | prepend: site.baseurl | prepend: site.url }}">Activity</a>
               </li>
               <li>
-                  <a href="{{ 'gallery' | prepend: site.baseurl | prepend: site.url }}">Gallery</a>
+                  <a href="{{ '/gallery' | prepend: site.baseurl | prepend: site.url }}">Gallery</a>
               </li>
               <li>
-                  <a href="{{ 'contact' | prepend: site.baseurl | prepend: site.url }}">Contact</a>
+                  <a href="{{ '/contact' | prepend: site.baseurl | prepend: site.url }}">Contact</a>
               </li>
           </ul>
       </div>
