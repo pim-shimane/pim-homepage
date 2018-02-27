@@ -2,19 +2,21 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div>
+  <video style="width: 100%;" autoplay muted loop><source src="media/PimHack.mp4"></video>
+  <div class="container">
+    <h2>About</h2>
+    <div>Pimは2014年4月に設立されました。2017年7月に正規サークルとして登録され、ますます活発な活動を行ってきました。</div>
+    <h2>Member</h2>
+    <div>
+      <div>代表</div>
+      <div>副代表</div>
+    </div>
+    <div>And more members...</div>
+    <h2>Activity</h2>
+    <div>2/26</div>
+    <div>2/19</div>
+    <div>And more activities...</div>
+  </div>
 </div>
+
