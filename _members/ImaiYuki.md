@@ -1,27 +1,26 @@
 ---
 layout: page
-name: 島大 太郎
-github: ssd-ch
-soft_hard: 30 ## min-0% max-100%
-enjoy_work: 15 ## min-0% max-100%
+name: 今井勇樹
+github: yukimaimai
+soft_hard: 75 ## min-0% max-100%
+enjoy_work: 30 ## min-0% max-100%
 ---
 
 ## 名前
 - {{ page.name }}
 
 ## 学部・学科
-- 人間科学部 福祉社会コース
-
-## なんで Ruby をはじめようと思ったの？
-- エンジニア系に興味をもったため
+- 総合理工学部　機械・電気電子工学科
 
 ## 出身地と、そこのお気に入りポイント
-- 静岡
-- マグロがおいしいところ
+- 島根
+- 人が優しい
+
 
 ## 主なスキル
-- スモウルビー
-- CPU設計
+- Unity(C#)
+- モデリング（ Blender,MAYA）
+- SubstanceDesigner
 
 ## リンク
 - [Github](https://github.com/{{ page.github }})
