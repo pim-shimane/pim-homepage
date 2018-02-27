@@ -7,7 +7,14 @@
     <body id="page-top" class="index">
 
     {% include navbar.html %}
-    {{ content }}
+
+    <div style="padding-top: 110px;">
+        {{ content }}
+    </div>
+
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
 
     </body>
 </html>
