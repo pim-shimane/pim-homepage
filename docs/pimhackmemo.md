@@ -35,4 +35,16 @@ $git clone -----(作成者のページ「ダウンロードまたはクローン
 ## gitの環境構築
 https://qiita.com/varmil/items/9b0aeafa85975474e9b6
 または「git status 100回」で検索
-
+https://github.com/git/git/tree/master/contrib/completion
+を参考にします
+```
+$git clone https://github.com/git/git.git
+$cp git/contrib/completion/git-completion.bash ./       //gitコマンド補完スクリプト
+$mv git-completion.bash .git-completion.bash        //ファイルを隠しファイルに変更
+$chmod a+x ~/.git-completion.bash       //権限付与
+ 
+$cp git/contrib/completion/git-prompt.sh ./
+$mv git-prompt.sh .git-prompt.sh 
+$chmod a+x ~/.git-prompt.sh
+$source .bashrc
+```
