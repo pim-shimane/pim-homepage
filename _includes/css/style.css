@@ -64,10 +64,16 @@
 }
 
 .index__activity--image {
+  height: 192px;
   width: 256px;
+  object-fit: cover;
 }
 
 .index__activity--title {
   font-weight: bold;
   font-size: 24px;
+}
+
+.about-wrapper {
+  padding: 64px 0;
 }

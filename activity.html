@@ -5,13 +5,29 @@ layout: page
 <div class="container">
 
   <h1>Activity</h1>
-
+ <!-- TODO 動的に画像を変える  -->
+<a herf="#" class="show-modal modal_open img_link">
   <img src="{{site.url}}/img/activity/ハッカソン.jpg"width="350" height="197">
+</a>
 
-  <img src="{{site.url}}/img/activity/ロボット勉強会.jpg"width="350" height="197">
+<a herf="#" class="show-modal">
+  <img src="{{site.url}}/img/activity/ビジネスプランコンテスト.jpg"width="350" height="197">
+</a>
 
+<a herf="#" class="show-modal">
  <img src="{{site.url}}/img/activity/島根大交流会.jpg"width="350" height="197">
-
+</a>
 
 </div>
-activity.html (END)
+
+ <!-- TODO モーダル画像対応させる  -->
+<div id="modalwin" class="modalwin hide">
+    <a herf="#" class="modal-close"></a>
+    <h1>タイトル</h1>
+    <div class="modalwin-contents">
+ <img src="{{site.url}}/img/activity/ハッカソン.jpg"width="350" height="197">
+        <p>テキスト</p>
+        <button>閉じる</button>
+    </div>
+</div>
+<!-- activity.html (END) -->
