@@ -2,32 +2,18 @@
 layout: page
 ---
 
-<div class="container">
+<div class = "container" style=" display: inline-block;"> 
+{% for post in site.posts %}
 
-  <h1>Activity</h1>
- <!-- TODO 動的に画像を変える  -->
-<a herf="#" class="show-modal modal_open img_link">
-  <img src="{{ '/img/activity/ハッカソン.jpg' | prepend: site.baseurl | prepend: site.url }}"width="350" height="197">
-</a>
-
-<a herf="#" class="show-modal">
-  <img src="{{ '/img/activity/ビジネスプランコンテスト.jpg' | prepend: site.baseurl | prepend: site.url }}"width="350" height="197">
-</a>
-
-<a herf="#" class="show-modal">
- <img src="{{ '/img/activity/島根大交流会.jpg' | prepend: site.baseurl | prepend: site.url }}"width="350" height="197">
-</a>
-
+<section class="card">
+  <img class="card-img" src="images/bear.jpg" alt="">
+  <div class="card-content">
+    <h1 class="card-title">{{post.title}}</h1>
+    <p class="card-text">{{post.description}}</p>
+  </div>
+  <div class="card-link">
+    <a href="{{ post.url | prepend: site.baseurl }}">more</a>
+  </div>
+</section>
+{% endfor %}
 </div>
-
- <!-- TODO モーダル画像対応させる  -->
-<div id="modalwin" class="modalwin hide">
-    <a herf="#" class="modal-close"></a>
-    <h1>タイトル</h1>
-    <div class="modalwin-contents">
- <img src="{{ '/img/activity/ハッカソン.jpg' | prepend: site.baseurl | prepend: site.url }}"width="350" height="197">
-        <p>テキスト</p>
-        <button>閉じる</button>
-    </div>
-</div>
-<!-- activity.html (END) -->
