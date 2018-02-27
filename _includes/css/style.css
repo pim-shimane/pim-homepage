@@ -64,7 +64,9 @@
 }
 
 .index__activity--image {
+  height: 192px;
   width: 256px;
+  object-fit: cover;
 }
 
 .index__activity--title {
