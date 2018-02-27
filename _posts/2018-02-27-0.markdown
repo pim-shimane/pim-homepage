@@ -1,7 +1,7 @@
 ---
 title: pimhack
-layout: default
-date: 2018-02-27
+layout: page
+time: 2018-02-27
 description: ようやく的な文章をお願いします。
 ---
 # PImHack

@@ -4,24 +4,18 @@ layout: page
 
 <div class="container">
 
-  <h1>Activity</h1>
-  {% for post in site.posts %}
-<a herf="#" class="show-modal modal_open img_link">
-  <img src="{{ '{{post.img}}' | prepend: site.baseurl | prepend: site.url }}"width="350" height="197">
-</a>
+  <div class="index-wrapper">
+    <h2 class="index-title">Gallery</h2>
 
-<div id="modalwin" class="modalwin hide">
-    <a herf="#" class="modal-close"></a>
-    <h1>{{post.title}}</h1>
-    <div class="modalwin-contents">
- <img src="{{ '{{post.img}}' | prepend: site.baseurl | prepend: site.url }}"width="350" height="197">
-         <p>{{content}}</p>
-        <button>閉じる</button>
-    </div>
-</div>
+    {% for data in site.data.gallery %}
+      <li>
+        <a href="{{ data.url }}">
+          {{ data.name }}
+        </a>
+        作成者: {{ data.author }}
+      </li>
+    {% endfor %}
 
-  {% endfor %}
-
-<!-- activity.html (END) -->
+  </div>
 
 </div>
