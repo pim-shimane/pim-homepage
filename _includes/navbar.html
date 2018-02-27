@@ -18,22 +18,22 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
               <li class="hidden">
-                  <a href="/"></a>
+                  <a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}"></a>
               </li>
               <li>
-                  <a href="/about">About</a>
+                  <a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">About</a>
               </li>
               <li>
-                  <a href="/member">Member</a>
+                  <a href="{{ 'member' | prepend: site.baseurl | prepend: site.url }}">Member</a>
               </li>
               <li>
-                  <a href="/activity">Activity</a>
+                  <a href="{{ 'activity' | prepend: site.baseurl | prepend: site.url }}">Activity</a>
               </li>
               <li>
-                  <a href="/gallery">Gallery</a>
+                  <a href="{{ 'gallery' | prepend: site.baseurl | prepend: site.url }}">Gallery</a>
               </li>
               <li>
-                  <a href="/contact">Contact</a>
+                  <a href="{{ 'contact' | prepend: site.baseurl | prepend: site.url }}">Contact</a>
               </li>
           </ul>
       </div>
