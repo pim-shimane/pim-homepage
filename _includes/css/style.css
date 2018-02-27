@@ -1,0 +1,44 @@
+.index-wrapper {
+  padding-top: 128px;
+}
+
+.navbar-logo {
+  width: 256px;
+}
+
+.index-title {
+  font-size: 6rem;
+}
+
+.index__title--container {
+  display: flex;
+  align-items: center;
+}
+
+.index__title--image {
+  object-fit: cover;
+  height: 128px;
+}
+
+.index__representative--image {
+  object-fit: cover;
+  height: 128px;
+  width: 128px;
+  border-radius: 50%;
+  border: 4px solid #607D8B;
+}
+
+.index__member--container {
+  display: flex;
+  align-items: center;
+  padding: 32px 0;
+}
+
+.index__member--comment {
+  padding: 0 32px;
+}
+
+.index__representative--name {
+  font-weight: bold;
+  font-size: 24px;
+}
