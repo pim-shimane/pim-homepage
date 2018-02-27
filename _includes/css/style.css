@@ -8,6 +8,14 @@
 
 .navbar-logo {
   width: 256px;
+  height: 21px;
+  background-image: url('img/logo-b.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-shrink .navbar-logo {
+  background-image: url('img/logo-w.png');
 }
 
 .index-title {
