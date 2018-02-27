@@ -12,7 +12,7 @@ layout: page
     <div class="index__member--container">
       <img class="index__activity--image" src="{{ site.baseurl }}/img/activity/{{ post.time }}-0.jpg" />
       <div class="index__member--comment">
-        <a href="{{ post.url }}">
+        <a href="{{ post.url | prepend: site.baseurl }}">
           <div class="index__activity--title">{{post.title}} {{post.time}}</div>
         </a>
         <div>{{post.description}}</div>
