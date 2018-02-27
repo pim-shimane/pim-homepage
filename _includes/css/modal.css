@@ -1,0 +1,62 @@
+.modalwin {
+            position: fixed;
+            width: 600px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px 0 #000;
+            z-index: 1;
+        }
+
+        .modalwin dl {
+            padding: 0px 10px;
+        }
+
+        .show {
+            display: block;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .modalwin h1 {
+            background: #ededed;
+            padding: 20px;
+            border-radius: 5px 5px 0 0;
+            font-size: 1.2em;
+            margin-top: 0;
+            text-align: center;
+        }
+
+        .modalwin-contents {
+            padding: 5px;
+        }
+
+        .modalwin-contents img {
+            margin: 0 0 1em 0;
+            float: left;
+            width: 30%;
+            height: 30%;
+        }
+
+        .modalwin-contents p {
+            margin: 0 0 1em 0;
+            line-height: 1.8em;
+        }
+
+        #shade {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #999;
+            opacity: 0.9;
+            z-index: 1;
+        }
+
+        @media screen and (max-width: 600px) {
+            .modalwin {
+                width: 90%;
+            }
+        }
