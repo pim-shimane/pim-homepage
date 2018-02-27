@@ -30,25 +30,19 @@ layout: default
       </div>
       <div class="index-wrapper">
          <h2 class="index-title">Activity</h2>
+
+         {% for post in site.posts limit:2 %}
+
          <div class="index__member--container">
-           <img class="index__activity--image" src="{{ '/img/activity/ハッカソン.jpg' | prepend: site.baseurl | prepend: site.url }}" />
+           <img class="index__activity--image" src="{{ site.baseurl }}/img/activity/{{ post.time }}-0.jpg" />
            <div class="index__member--comment">
-             <div class="index__activity--title">2018/2/28 - PimHack 2018</div>
-             <div>
-                目覚ましゲームを作る赤チーム、部員が部室に現在何人いるのか状況を確認するアプリを開発する青チーム、
-                Pimのホームページを作る黄色チームの3チームに分かれ、2日間でそれらを完成させるイベント。
-              </div>
+               <div class="index__activity--title">{{post.time}} {{post.title}}</div>
+             <div>{{post.description}}</div>
            </div>
          </div>
-         <div class="index__member--container">
-            <img class="index__activity--image" src="{{ '/img/bisicon2018.jpg' | prepend: site.baseurl | prepend: site.url }}" />
-            <div class="index__member--comment">
-              <div class="index__activity--title">2018/2/17 - ビジネスプランコンテスト</div>
-              <div>
-                  Pimのメンバーがビジネスプランコンテストに出場し以下の結果を残しました。<br />「学生部門」最優秀賞 佐藤公治、奨励 鳥居一輝、「ビジネス活用部門」優秀賞 今井勇樹
-               </div>
-            </div>
-          </div>
+
+         {% endfor %}
+
          <a href="{{ '/activity' | prepend: site.baseurl | prepend: site.url }}">And more activities...</a>
       </div>
    </div>

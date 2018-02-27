@@ -2,18 +2,25 @@
 layout: page
 ---
 
-<div class = "container" style=" display: inline-block;"> 
-{% for post in site.posts %}
+<div class="container">
 
-<section class="card">
-  <img class="card-img" src="images/bear.jpg" alt="">
-  <div class="card-content">
-    <h1 class="card-title">{{post.title}}</h1>
-    <p class="card-text">{{post.description}}</p>
+  <div class="index-wrapper">
+    <h2 class="index-title">Activity</h2>
+
+    {% for post in site.posts %}
+
+    <div class="index__member--container">
+      <img class="index__activity--image" src="{{ site.baseurl }}/img/activity/{{ post.time }}-0.jpg" />
+      <div class="index__member--comment">
+        <a href="{{ post.url }}">
+          <div class="index__activity--title">{{post.title}} {{post.time}}</div>
+        </a>
+        <div>{{post.description}}</div>
+      </div>
+    </div>
+
+    {% endfor %}
+
   </div>
-  <div class="card-link">
-    <a href="{{ post.url | prepend: site.baseurl }}">more</a>
-  </div>
-</section>
-{% endfor %}
+
 </div>
