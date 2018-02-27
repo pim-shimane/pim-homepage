@@ -2,6 +2,10 @@
   padding-top: 128px;
 }
 
+.index-wrapper:last-child {
+  padding-bottom: 64px;
+}
+
 .navbar-logo {
   width: 256px;
 }
@@ -25,7 +29,7 @@
   height: 128px;
   width: 128px;
   border-radius: 50%;
-  border: 4px solid #607D8B;
+  border: 4px solid #fec503;
 }
 
 .index__member--container {
@@ -39,6 +43,15 @@
 }
 
 .index__representative--name {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.index__activity--image {
+  width: 256px;
+}
+
+.index__activity--title {
   font-weight: bold;
   font-size: 24px;
 }
