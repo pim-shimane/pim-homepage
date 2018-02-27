@@ -7,11 +7,19 @@
 }
 
 .navbar-logo {
-  width: 256px;
-  height: 21px;
+  width: 300px;
+  height: 24px;
   background-image: url('img/logo-b.png');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media(max-width:768px) {
+  .navbar-logo {
+    background-image: url('img/logo-w.png');
+    width: 256px;
+    height: 20px;
+  }
 }
 
 .navbar-shrink .navbar-logo {
