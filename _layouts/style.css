@@ -3,4 +3,5 @@
 {% include css/style.css %}
 {% include css/member.css %}
 {% include css/modal.css %}
+{% include css/card-design.css %}
 {{ content }}
