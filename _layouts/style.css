@@ -1,5 +1,6 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
 {% include css/style.css %}
+{% include css/member.css %}
 {% include css/modal.css %}
 {{ content }}

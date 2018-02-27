@@ -3,14 +3,16 @@ layout: page
 ---
 
 <ul>
-{% for member in site.members %}
 
-<div style="position: relative; width: 100%; height: 100%; padding: 50% 0 0; background-size:contain; background-image: url('{{ site.baseurl }}/img/matrix.png');">
-  <div style="position: absolute; top: {{ member.soft_hard }}%; left: {{ member.enjoy_work }}%; width: 5%; height: 5%; background: url('{{ site.baseurl }}/img/matrix.png');">
+<div style="background-image: url('{{ site.baseurl }}/img/matrix.png');" class="outor">
+  {% for member in site.members %}
+  <div style="top: {{ member.soft_hard }}%; left: {{ member.enjoy_work }}%; background: url('{{ site.baseurl }}/img/matrix.png');" class="innner">
     <a href="{{ member.url | prepend: site.baseurl | prepend: site.url }}">
-      <img src="https://avatars.githubusercontent.com/{{ member.github }}" style="width: 100%; height: auto;" alt="{{ member.name }}">
+      <img src="https://avatars.githubusercontent.com/{{ member.github }}" alt="{{ member.name }}">
+      <div class="mask">
+		      <div class="caption">{{ member.name }}</div>
+	    </div>
     </a>
   </div>
+  {% endfor %}
 </div>
-
-{% endfor %}

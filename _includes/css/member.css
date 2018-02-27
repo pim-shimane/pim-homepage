@@ -1,0 +1,40 @@
+.outor {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 50% 0 0;
+  background-size: contain;
+}
+
+.innner {
+  position: absolute;
+  width: 5%;
+  height: 5%;
+}
+.innner .caption {
+  font-size: 80%;
+  text-align: center;
+  color: #000;
+}
+.innner .mask {
+  white-space: nowrap;
+  width:			100%;
+  height:			100%;
+  position:		absolute;
+  top:			0;
+  left:			0;
+  opacity:		0;	/* マスクを表示しない */
+  background-color:	rgba(0,0,0,0.1);
+  -webkit-transition:	all 0.4s ease-out;
+  transition:		all 0.4s ease-out;
+}
+.innner:hover .mask {
+  opacity:		1;	/* マスクを表示する */
+  -webkit-transform:	scale(2);	/* 2倍に拡大 */
+  transform:		scale(2);
+}
+
+.innner img {
+  width: 100%;
+  height: auto;
+}
