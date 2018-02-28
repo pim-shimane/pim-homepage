@@ -1,0 +1,30 @@
+table.gallery {
+width: 80%; /* 表の幅 */
+border: 1px #c0c0c0 solid; /* 大枠の境界線 */
+border-collapse: collapse;
+font-size: 120%;
+}
+
+/* --- セル --- */
+table.gallery th,
+table.gallery td {
+/* width: 20%; */ /* セルの幅（セルの幅を均等にする場合） */
+padding: 6px 8px; /* セルのパディング（上下、左右） */
+border: 1px #c0c0c0 solid; /* セルの境界線 */
+}
+
+/* --- 1列目 --- */
+table.gallery colgroup.item {
+background-color: #fffce7; /* 1列目の背景色 */
+}
+
+/* --- 2列目以降 --- */
+table.gallery colgroup.data {
+background-color: #ffffff; /* 2列目以降の背景色 */
+}
+
+/* --- 見出しセル --- */
+table.gallery thead th {
+background-color: #deefff; /* 見出しセルの背景色 */
+text-align: center;
+}

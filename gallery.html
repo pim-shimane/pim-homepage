@@ -7,14 +7,30 @@ layout: page
   <div class="index-wrapper">
     <h2 class="index-title">Gallery</h2>
 
-    {% for data in site.data.gallery %}
-      <li>
-        <a href="{{ data.url }}">
-          {{ data.name }}
-        </a>
-        作成者: {{ data.author }}
-      </li>
-    {% endfor %}
+    <table class="gallery">
+
+    <colgroup class="item"></colgroup>
+    <colgroup span="4" class="data"></colgroup>
+
+    <thead>
+    <tr>
+      <th>作成物</th>
+      <th>製作者</th>
+      <th>説明</th>
+    </tr>
+    </thead>
+
+    <tbody>
+        {% for data in site.data.gallery %}
+          <tr>
+            <td style="background-color: #fffcf9;"><a href="{{ data.link }}">{{ data.name }}</a></td>
+            <td>{{ data.author }}</td>
+            <td>{{ data.description }}</td>
+          </tr>
+        {% endfor %}
+    </tbody>
+
+    </table>
 
   </div>
 
