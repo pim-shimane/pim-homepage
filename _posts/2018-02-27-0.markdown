@@ -5,10 +5,10 @@ time: 2018-02-27
 description: 島根大学ものづくり部主催の初ハッカソン。今回は全24人が3チーム（Pim公式サイト作成、スマホアプリ作成、通行人検知システム構築）に分かれ各チームが27日、28日にかけてアイディアと技術力を最大限生かして最優秀賞獲得を目標に競った。 
 ---
 <div style="text-align: center;">
-<img src="/img/activity/pimlogo.jpg" width="200" height="160" />  
+<img src="{{ '/img/activity/pimlogo.jpg' | prepend: site.baseurl | prepend: site.url }}" width="200" height="160" />  
 </div>
 <div style="text-align: center;">
-<img src="/img/activity/2018-02-27-0.jpg" width="800" height="500" />
+<img src="{{ '/img/activity/2018-02-27-0.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="500" />  
 </div>
 
 ## 場所 
