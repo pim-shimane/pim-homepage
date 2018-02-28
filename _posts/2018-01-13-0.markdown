@@ -1,12 +1,12 @@
 ---
 title: ビジネスプランコンテスト 
 layout: page
-time: 2018-01-13
+time: 2018-02-17
 description: ビジネスプランコンテストではOSS(オープンソースソフトウェア)を用いたビジネスプランを競い合います。今年はものづくり部から3人（佐藤公治、鳥居一輝、今井勇樹）が参加し入賞者も出ました。
 ---
 ## ビジネスプランコンテスト
 <div style="text-align: center;">
-<img src="{{ '/img/activity/2018-01-13-0.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="500" />  
+<img src="{{ '/img/activity/2018-02-17-0.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="500" />  
 </div>
 
 ## 場所 
