@@ -1,9 +1,39 @@
+- name: TactOS
+  description: 自作OS
+  link: https://qiita.com/otakuto/items/53667e1968de3ad7888a
+  author: 吉田匠杜
+
+- name: バッティングマシン
+  description: スモウルビーで作ったバッティングマシン
+  link:
+  author: 武本和久
+
+- name: MITUKERU
+  description: 子供見守りシューズ
+  link: http://www.shimane-oss.org/biz-contest2017/final.html
+  author: 佐藤公治
+
+- name: 発掘ロボドンダラー
+  description: 島根を舞台にしたゲーム
+  link: http://www.shimane-oss.org/biz-contest2017/final.html
+  author: 藤村上
+
+- name: ご縁玉
+  description: 鋳物のイメージを提案してもらった力作
+  link: http://www.sankei.com/region/news/170202/rgn1702020045-n1.html
+  author: 今川翔平
+
+- name: プラぴか
+  description: 模型用簡単LED電飾システム
+  link: http://www.shimane-oss.org/biz-contest2016/award.html
+  author: 佐藤公治
+
+- name: 壁にぶつからないロボット
+  description: Pim初の作品
+  link:
+  author: 佐藤公治
+
 - name: SuLi
   description: 島根大学講義情報アプリ
   link: https://suli.ssdtic.net
   author: 宍戸 太一
-
-- name: Sample
-  description: 説明
-  link: url
-  author: 製作者
