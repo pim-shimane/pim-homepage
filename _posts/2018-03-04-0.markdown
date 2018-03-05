@@ -1,0 +1,19 @@
+---
+title: 第0回 Hack Shimane
+layout: page
+time: 2018-03-04
+description: 来年度から松江で社会人１年目予定の吉岡君（なっちゃん）主催のハッカソン。今後は年に2度（3月、8月）、Ruby合宿前に行う予定で考えているそうです。(ハッシュタグ#hackshimane)
+---
+<div style="text-align: center;">
+第0回HackShimane
+</div>
+
+<div style="text-align: center;">
+<img src="{{ '/img/activity/2018-03-04-0.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="600" />  
+</div>
+
+#### 主催者（吉岡 捺己）
+- 超有能エンジニア。なっちゃん。副部長が去年のインターンで一緒に活動したことがご縁となり、今回ものづくり部員も参加させていただきました。彼の詳細については[723ch](https://723ch.net/)をご覧ください。  
+
+#### 活動内容
+- [Facebook](https://www.facebook.com/search/top/?q=%E2%80%AA%23%E2%80%8Ehackshimane%E2%80%AC)をご確認ください。（手抜きで申し訳ナス・・・）  
