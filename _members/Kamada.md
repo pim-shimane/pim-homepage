@@ -3,7 +3,7 @@ layout: page
 name: 鎌田 耀介
 github: KamachanYSK
 soft_hard: 20 ## min-0% max-100%
-enjoy_work: 50 ## min-0% max-100%
+enjoy_work: 40 ## min-0% max-100%
 ---
 
 ## 名前
