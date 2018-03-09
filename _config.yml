@@ -47,12 +47,8 @@ social:
     url: https://twitter.com/shimane_u_Pim
   - title: facebook
     url: https://www.facebook.com/Shimane.Pim/
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
   - title: github
-    url: https://github.com/ssd-ch
+    url: https://github.com/pim-shimane
 
 # Postal address (add as many lines as necessary)
 address:
