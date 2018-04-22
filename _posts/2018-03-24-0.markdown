@@ -1,0 +1,34 @@
+---
+title : スモウルビー・プログラミング甲子園
+layout: page
+time: 2018-03-24
+description: ３月２４日にくにびきメッセにて開催されたスモウルビー・プログラミング甲子園にブース展示しました！  
+---
+<div style="text-align: center;">
+<img src="{{ '/img/activity/2018-03-24-0.jpg' | prepend: site.baseurl | prepend: site.url }}" width="600" height="375" />  
+</div>
+
+### 展示ゲーム
+- タイトル 「ドキッ☆季節外れのスキージャンプ！！」~~(あふれ出る昭和臭)~~  
+　[smalruby](http://smalruby.jp/)を使って制作したスキージャンプゲーム。２つのセンサーを使うことでジャンプのタイミングと着地のタイミングを検知し、できるだけ長い距離を飛ぶという、一見~~手抜き~~シンプルなゲーム性にも関わらず一回遊んでみるとそのやりこみ要素にハマってしまう謎ゲー。  
+　タイミングの評価は４段階に分かれており、下から、Nice, Good, Great, God, となっている。(Godを一発で出すのは相当やりこんでいるゲーム制作スタッフまたはMatzさんだけだそう。)  
+
+### 裏話
+- 裏話って言うほど裏話でもないですが、今回のゲームは一年生と二年生がメインになって初めてのチームでの作成でした。  
+　プログラムは１年生がメインで作成しまして、デバッグやイラスト、センサーとマージは２年生が手動で主導で行いました！  
+　２年生が限られた日にちで相当の作業量をこなしてくれたおかげで無事完成まで漕ぎ着けましたw
+
+### こんな感じ
+
+<div style="text-align: center;">
+<!--<video src="bucyo1.mp4" controls></video>
+--> 
+<video src="{{ '/img/activity/bucyo1.mp4' | prepend: site.baseurl | prepend: site.url }}" width="600" height="375" controls></video>  
+</div>
+
+### 参考リンク
+- [スモウルビー・プログラミング甲子園公式サイト](https://smalruby-koshien.jp/)
+- [facebook](https://www.facebook.com/smalrubykoshien/)
+
+### 場所 
+- [くにびきメッセ　国際会議場](http://www.kunibikimesse.jp/24.html)
