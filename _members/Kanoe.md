@@ -24,4 +24,4 @@ enjoy_work: 10 ## min-0% max-100%
 ## リンク
 - [Github](https://github.com/{{ page.github }})
 - [KanoeStudio](http://www.kanoe.studio)
-- [Twitter](https://twitter.com/KanoeStudio)
+- [Twitter](https://twitter.com/KanoeTweet)
