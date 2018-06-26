@@ -1,0 +1,24 @@
+---
+title: 茶風林さん×島根大学生交流会
+layout: page
+time: 2018-06-25
+description: 名探偵コナンの目暮警部。サザエさんの波平さんの声優として知られる茶風林さんとものづくり部Pimや漫画研究会の方々で交流しました。
+---
+
+## 交流会
+松江市の洞光寺で交流会を開催しました。  
+『声をどう作っているのか？』とか『真似ることは良いことなのか？』みたいなお話をお聞きしました。  
+みんな笑顔です（笑）~~緊張気味な人もちらほら~~
+<div style="text-align: center;">
+<img src="{{ '/img/activity/2018-06-25-0.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="500" />  
+</div>
+お話されている時の様子です。お菓子も頂きました。
+<div style="text-align: center;">
+<img src="{{ '/img/activity/2018-06-25-1.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="600" />  
+</div>
+
+## 酒林堂
+次回は9月8日と9月9日のイベントで来られるそうで今から楽しみです。  
+[酒林堂](http://www.syurindou.com/)  
+[Twwiter](https://twitter.com/ayakashi_yakumo)
+
