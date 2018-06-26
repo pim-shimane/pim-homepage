@@ -6,7 +6,7 @@ description: ビジネスプランコンテストではOSS(オープンソース
 ---
 ## ビジネスプランコンテスト
 <div style="text-align: center;">
-<img src="{{ '/img/activity/2018-02-17-0.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="500" />  
+<img src="{{ '/img/activity/2018-02-17-0.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="450" />
 </div>
 
 ## 場所 

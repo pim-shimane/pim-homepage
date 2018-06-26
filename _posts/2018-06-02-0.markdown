@@ -8,7 +8,7 @@ description: 関西学生コンソーシアム Connectという団体が運営�
 ## 開発メンバー
 島根会場では島根大学生３人、松江ビジネス専門学生１人の計４人でゲームを作成しました。開発の雰囲気は焦るというよりはしっかりと余裕持って賑やかに開発していました。それも、ものづくり部Pimのメンバーが成長してきた証なのかなと思います。
 <div style="text-align: center;">
-<img src="{{ '/img/activity/2018-06-02-0.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="500" />  
+<img src="{{ '/img/activity/2018-06-02-0.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="450" />
 </div>
 
 ## 竹にょっき
@@ -16,16 +16,16 @@ description: 関西学生コンソーシアム Connectという団体が運営�
 <div style="text-align: center;">
 <!--<video src="bucyo1.mp4" controls></video>
 --> 
-<video src="{{ '/img/activity/2018-06-02-0.mp4' | prepend: site.baseurl | prepend: site.url }}" width="360" height="640" controls></video>  
+<video src="{{ '/img/activity/2018-06-02-0.mp4' | prepend: site.baseurl | prepend: site.url }}" width="360" height="640" controls></video>
 </div>
 
 **スマホを振っている様子です**
 <div style="text-align: center;">
-<img src="{{ '/img/activity/2018-06-02-1.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="500" />  
+<img src="{{ '/img/activity/2018-06-02-1.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="450" />
 </div>
 
 ## ゲーム発表
 『あげる』といっても様々。揚げたり、ものをあげたりと『あげる』に対していろんな解釈をしていました。どのチームも個性的なゲームが出来ていて開発時の真剣な雰囲気から一変して笑顔が絶えない発表会となりました。~~開発中も笑顔でしたよ！！~~
 <div style="text-align: center;">
-<img src="{{ '/img/activity/2018-06-02-2.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="500" />  
+<img src="{{ '/img/activity/2018-06-02-2.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="450" />
 </div>

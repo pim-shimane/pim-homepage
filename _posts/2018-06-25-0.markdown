@@ -10,11 +10,11 @@ description: 名探偵コナンの目暮警部。サザエさんの波平さん�
 『声をどう作っているのか？』とか『真似ることは良いことなのか？』みたいなお話をお聞きしました。  
 みんな笑顔です（笑）~~緊張気味な人もちらほら~~
 <div style="text-align: center;">
-<img src="{{ '/img/activity/2018-06-25-0.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="500" />  
+<img src="{{ '/img/activity/2018-06-25-0.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="450" />
 </div>
 お話されている時の様子です。お菓子も頂きました。
 <div style="text-align: center;">
-<img src="{{ '/img/activity/2018-06-25-1.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="600" />  
+<img src="{{ '/img/activity/2018-06-25-1.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="600" />
 </div>
 
 ## 酒林堂
