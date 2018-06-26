@@ -23,7 +23,7 @@ description: ３月２４日にくにびきメッセにて開催されたスモ�
 <div style="text-align: center;">
 <!--<video src="bucyo1.mp4" controls></video>
 --> 
-<video src="{{ '/img/activity/bucyo1.mp4' | prepend: site.baseurl | prepend: site.url }}" width="600" height="375" controls></video>  
+<video src="{{ '/img/activity/bucyo1.mp4' | prepend: site.baseurl | prepend: site.url }}" width="600" height="375" controls></video>
 </div>
 
 ### 参考リンク

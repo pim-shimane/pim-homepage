@@ -8,7 +8,7 @@ description: 島根大学ものづくり部主催の初ハッカソン。今回�
 <img src="{{ '/img/activity/pimlogo.jpg' | prepend: site.baseurl | prepend: site.url }}" width="200" height="160" />  
 </div>
 <div style="text-align: center;">
-<img src="{{ '/img/activity/2018-02-27-0.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="500" />  
+<img src="{{ '/img/activity/2018-02-27-0.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="450" />
 </div>
 
 ### 協賛、協力機関のご紹介  
