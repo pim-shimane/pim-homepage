@@ -12,13 +12,13 @@ description: 名探偵コナンの目暮警部。サザエさんの波平さん�
 <div style="text-align: center;">
 <img src="{{ '/img/activity/2018-06-25-0.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="450" />
 </div>
-お話されている時の様子です。お菓子も頂きました。
+お話されている時の様子です。お菓子は洞光寺さんから頂きました。
 <div style="text-align: center;">
 <img src="{{ '/img/activity/2018-06-25-1.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="600" />
 </div>
 
 ## 酒林堂
-次回は9月8日と9月9日のイベントで来られるそうで今から楽しみです。  
+次回は9月8日と9月9日のイベントで来られるそうで今から楽しみです。会場は洞光寺です！！  
 [酒林堂](http://www.syurindou.com/)  
-[Twwiter](https://twitter.com/ayakashi_yakumo)
+[Twitter](https://twitter.com/ayakashi_yakumo)
 
