@@ -62,4 +62,4 @@ Email : info@ajito.space
 ヘルシェイク（ Wake Up! By 部長 ）  
 
 ### 参考リンク
-- [Github](https://github.com/ssd-ch/pim-homepage)
+- [Github](https://github.com/pim-shimane)

@@ -1,0 +1,19 @@
+---
+title: 2018 島根ものづくりフェア
+layout: page
+time: 2018-09-06
+description: 協同組合島根県鐵工会 様主催の「2018 島根ものづくりフェア」にブース出展してきました！普段ソフトウェア関連でのものづくりや交流の多いものづくり部的には珍しい、ハードウェア関連県内企業の方々と交流しました。
+---
+
+### 感想や当日の写真など
+- [Facebook](https://www.facebook.com/Shimane.Pim/videos/290012515121587/?__xts__[0]=68.ARDomTArOlyfD4rswaw8GCgblcnKXa9Vum8TqcjFHiPfwtHvkMaooHxnTNNBesNE3FANpVOeNXT7pyZIPPxBVrVxHaY26fOCnLKtlYOxxQWCBhqp9M6P8Bv19ZluuqfJ1FWWjkqfjribDNuJyg2-86LN0jgG0yntYPaUbQP4B4G2Wzl-Vk3C&__tn__=-R)をご確認ください。
+
+<div style="text-align: center;">
+<img src="{{ '/img/activity/2018-09-06-0.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="450" />
+</div>
+
+### 出展内容
+- スモウルビーを用いたスキージャンプゲームと自作VRコンテンツ、CADやCAEソフトウェアを用いた簡単なモデル解析シミュレーションなど。
+
+### イベント詳細
+[2018 ものづくりフェア（協同組合島根県鐵工会ホームページ）](https://tekkokai.jp/fair2018/)

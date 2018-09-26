@@ -14,8 +14,6 @@ description: 関西学生コンソーシアム Connectという団体が運営�
 ## 竹にょっき
 島根会場で作りあげたゲームです。スマホを振ると竹が天に向かって『上がって』いくゲームです。
 <div style="text-align: center;">
-<!--<video src="bucyo1.mp4" controls></video>
---> 
 <video src="{{ '/img/activity/2018-06-02-0.mp4' | prepend: site.baseurl | prepend: site.url }}" width="360" height="640" controls></video>
 </div>
 

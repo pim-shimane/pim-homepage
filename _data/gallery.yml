@@ -35,8 +35,13 @@
 
 - name: Pim公式Webサイト
   description: ものづくり部の公式サイト
-  link: https://ssd-ch.github.io/pim-homepage/
+  link: https://github.com/pim-shimane 
   author: なべちゃんず
+
+- name: ガイアメモリでUSBメモリ作った
+  description: 仮面ライダー変身アイテム
+  link: http://www.nicovideo.jp/watch/sm33529027
+  author: なるあわ
 
 - name: 発掘ロボドンダラー
   description: 島根を舞台にしたゲーム
@@ -48,7 +53,9 @@
   link: https://qiita.com/otakuto/items/53667e1968de3ad7888a
   author: 吉田匠杜
 
-- name: ガイアメモリでUSBメモリ作った
-  description: 仮面ライダー変身アイテム
-  link: http://www.nicovideo.jp/watch/sm33529027
-  author: なるあわ
+- name: MONTTL
+  description: Pim体験型スマフォアプリ
+  link: https://github.com/JING1201/pim-mini-hackathon-app
+  author: 未定
+
+
