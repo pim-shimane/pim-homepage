@@ -15,7 +15,8 @@ enjoy_work: 55 ## min-0% max-100%
 - 松江市
 ### 主なスキル
 - スモウルビー
-- CAE技術(Abaqus)初心者&CAD(SOLID WORKS)初心者
+- Ruby, C, Python
+- CAE(Abaqus)初心者&CAD(SOLIDWORKS)初心者
 ### 趣味
 - 自転車屋さんでバイトするくらい自転車が好きです。時間があれば愛車（KUOTA製）に乗って日本海沿いを走ってます。
 ### リンク

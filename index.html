@@ -8,30 +8,30 @@ layout: default
    </video>
    <div class="container">
       <div class="index-wrapper">
-         <h2 class="index-title">About</h2>
+         <h2 class="index-title"><font size="7" color="#ff7f50">About</font></h2>
          <div class="index__title--container">
-            <div>島根大学ものづくり部Pimは2014年4月に設立されソフト、ハード問わず様々な学生がモノを作っている大学公認サークルです。VRなどの最新技術を駆使し、展示会やコンテストに参加、「ものづくり」の楽しさを内外問わず広める活動をしています。</div>
+		 <div><font size = "4">島根大学ものづくり部Pimは2014年4月に設立されソフト、ハード問わず様々な学生がモノを作っている大学公認サークルです。VRなどの最新技術を駆使し、展示会やコンテストに参加、「ものづくり」の楽しさを内外問わず広める活動をしています。</font></div>
             <img class="index__title--image" src="{{ '/img/human.png' | prepend: site.baseurl | prepend: site.url }}">
          </div>
-         <a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">See more detail...</a>
+	 <a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}"><font size = "4">See more detail...(Click here)</font></a>
       </div>
       <div class="index-wrapper">
-         <h2 class="index-title">Member</h2>
+         <h2 class="index-title"><font size="7" color="#ff6347">Member</font></h2>
          <div class="index__member--container">
             <img class="index__representative--image" src="{{ '/img/bucho_03.JPG' | prepend: site.baseurl | prepend: site.url }}" />
             <div class="index__member--comment">
                <div class="index__representative--name">代表(部長) - 宍戸太一</div>
                <div>
-                 ものづくり部Pimは分野を問わずいろいろな技術を持った人がものづくりの楽しさを共有するための場です。<br>
+		       <font size = "4">ものづくり部Pimは分野を問わずいろいろな技術を持った人が<strong>ものづくりの楽しさを共有するための場です。</strong><br>
                  Pimのものづくりを共有する場は、部内はもちろん、大学や地域でのイベントなど様々です。<br>
-                 部員の皆さんには、自分にはこれだというものづくり技術を磨きながら、活動を楽しんでほしいです。
+		 部員の皆さんには、<strong>自分にはこれだというものづくり技術を磨きながら、活動を楽しんでほしいです。</strong></font>
                </div>
             </div>
          </div>
-         <a href="{{ '/member' | prepend: site.baseurl | prepend: site.url }}">And more members...</a>
+	 <a href="{{ '/member' | prepend: site.baseurl | prepend: site.url }}"><font size = "4">And more members...(Click here)</font></a>
       </div>
       <div class="index-wrapper">
-         <h2 class="index-title">Activity</h2>
+          <h2 class="index-title"><font size="7" color="#ff4500">Activity</font></h2>
 
          {% for post in site.posts limit:2 %}
 
@@ -45,7 +45,7 @@ layout: default
 
          {% endfor %}
 
-         <a href="{{ '/activity' | prepend: site.baseurl | prepend: site.url }}">And more activities...</a>
+	 <a href="{{ '/activity' | prepend: site.baseurl | prepend: site.url }}"><font size ="4">And more activities...</font></a>
       </div>
    </div>
 </div>
