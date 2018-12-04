@@ -5,15 +5,19 @@ time: 2018-09-22
 description: Pim部内のハッカソン。今回は２日間で１２時間程度の作業時間を設け、できるだけ全員が自分のしてみたいこと、やったことのないことにチャレンジする、という趣旨でハッカソンを行いました。フードスポンサーにも付いていただきながら、和気あいあいとものづくりに没頭しました！
 ---
 
+<div style="text-align: center;">
+  <img src="{{ '/img/activity/2018-09-22-0.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="450" />
+</div> 
+  
 ### スポンサー様(５０音順)
 - セントラル情報センター 様
 - セコム山陰株式会社 様
 
+部内ハッカソン開催に当たってご協力いただき誠にありがとうございました。
+
 ### 感想や当日の様子、制作物など
-- Facebookをご確認ください。
+- FacebookおよびYoutube動画をご確認ください。
 
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FShimane.Pim%2Fposts%2F2269209889820377&width=500" width="500" height="720" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-
-<div style="text-align: center;">
-<img src="{{ '/img/activity/2018-09-22-0.jpg' | prepend: site.baseurl | prepend: site.url }}" width="800" height="450" />
-</div> 
+  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sAYIWu50N8A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
